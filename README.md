@@ -133,25 +133,13 @@ A star schema approach was followed for efficient filtering and reporting.
 
 # Key DAX Calculations
 ## Membership Duration
-Membership_Duration=
-DATEDIFF(
-    Customer_Demographics[Membership_Since],
-    TODAY(),
-    YEAR
-)    
+```Membership_Duration = DATEDIFF(Customer_Demographics[Membership_Since],TODAY(),YEAR)```            
 
 ## Churn Rate %
-Churn Rate % =
-DIVIDE(
-    [Churned Customers],
-    [Total Customers]
-) * 100
-Customer Lifetime Value (CLV)
-CLV =
-DIVIDE(
-    SUM(Customer_Transactions[Amount]),
-    AVERAGE(Customer_Demographics[Membership_Duration])
-)
+```Churn Rate % = DIVIDE([Churned Customers],[Total Customers]) * 100```
+
+## Customer Lifetime Value (CLV)
+```CLV = DIVIDE(SUM(Customer_Transactions[Amount]),AVERAGE(Customer_Demographics[Membership_Duration]))```
 
 
 ---
