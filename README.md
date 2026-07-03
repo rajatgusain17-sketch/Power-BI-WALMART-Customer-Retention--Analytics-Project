@@ -245,6 +245,11 @@ Simplifying the redemption process and offering more personalized rewards can si
 ---
 
 
+# Screenshots         
+
+
+
+
 
 # Learning Outcomes 
 Through this project, I gained practical experience in:
