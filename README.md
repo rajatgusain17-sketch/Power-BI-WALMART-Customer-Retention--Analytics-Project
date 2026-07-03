@@ -248,7 +248,7 @@ Simplifying the redemption process and offering more personalized rewards can si
 # Screenshots     
 ## SS1: ![ss1](https://github.com/rajatgusain17-sketch/Power-BI-WALMART-Customer-Retention--Analytics-Project/blob/main/WALMART%20churn%25.jpg?raw=true)     
 
-## SS2: ![ss2]()
+## SS2: ![ss2](https://github.com/rajatgusain17-sketch/Power-BI-WALMART-Customer-Retention--Analytics-Project/blob/main/WALMART%20slicers.jpg?raw=true)
 
 ## SS3: ![ss3]()
 
